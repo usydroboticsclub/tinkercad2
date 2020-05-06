@@ -173,8 +173,7 @@ Serial.println(" cm");
 
 Additional Notes:
 
--   The real world, the ultrasonic sensor we’re using can measure from
-    > distances between 2-400cm with an accuracy of 3mm
+-   The real world, the ultrasonic sensor we’re using can measure from distances between 2-400cm with an accuracy of 3mm
 
 -   Speed of sound = 343m/s
 
@@ -192,15 +191,13 @@ Bonus Meme(Content)-
 
 Diagram of LCD-
 
-![](media/image4.png){width="6.213542213473316in"
-height="4.620325896762905in"}
+![TDiagram of LCD](https://github.com/usydroboticsclub/tinkercad2/blob/master/tink_1.png "Diagram of LCD")
 
 **Explanation of each pin-**
 
 -   GND and VCC-Provide power to the display
 
--   V0- Used to control the contrast between the images on the screen
-    > based upon the voltage input
+-   V0- Used to control the contrast between the images on the screen based upon the voltage input
 
 -   RS- Used to determine whether we send commands or data to the LCD. If the input into RS is LOW, then we are sending commands into the LCD (eg. Set cursor to specific location). If the input into RS is HIGH, then we are sending data or characters into the LCD
 
