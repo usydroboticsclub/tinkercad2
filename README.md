@@ -240,67 +240,63 @@ Using an LCD-
 
 Code:
 
-1.  /\*
+ /\*
 
-2.  \* Arduino LCD Tutorial
+ \* Arduino LCD Tutorial
 
-3.  \*
+ \*
 
-4.  \* Crated by Dejan Nedelkovski,
+\* Crated by Dejan Nedelkovski,
 
-5.  \* www.HowToMechatronics.com
+\* www.HowToMechatronics.com
 
-6.  \*
+\*
 
-7.  \*/
+\*/
 
-8.  9.  \#include &lt;LiquidCrystal.h&gt; // includes the LiquidCrystal
+ \#include &lt;LiquidCrystal.h&gt; // includes the LiquidCrystal
     > Library
 
-10. LiquidCrystal lcd(1, 2, 4, 5, 6, 7); // Creates an LC object.
+ LiquidCrystal lcd(1, 2, 4, 5, 6, 7); // Creates an LC object.
     > Parameters: (rs, enable, d4, d5, d6, d7)
 
-11. 12. **void** setup() {
+ **void** setup() {
 
-13. lcd.begin(16,2); // Initializes the interface to the LCD screen, and
+ lcd.begin(16,2); // Initializes the interface to the LCD screen, and
     > specifies the dimensions (width and height) of the display }
 
-14. }
+}
 
-15. 16. **void** loop() {
+ **void** loop() {
 
-17. lcd.print("Arduino"); // Prints "Arduino" on the LCD
+ lcd.print("Arduino"); // Prints "Arduino" on the LCD
 
-18. delay(3000); // 3 seconds delay
+delay(3000); // 3 seconds delay
 
-19. lcd.setCursor(2,1); // Sets the location at which subsequent text
-    > written to the LCD will be displayed
+lcd.setCursor(2,1); // Sets the location at which subsequent text written to the LCD will be displayed
 
-20. lcd.print("LCD Tutorial");
+lcd.print("LCD Tutorial");
 
-21. delay(3000);
+delay(3000);
 
-22. lcd.clear(); // Clears the display
+lcd.clear(); // Clears the display
 
-23. lcd.blink(); //Displays the blinking LCD cursor
+lcd.blink(); //Displays the blinking LCD cursor
 
-24. delay(4000);
+delay(4000);
 
-25. lcd.setCursor(7,1);
+lcd.setCursor(7,1);
 
-26. delay(3000);
+delay(3000);
+lcd.noBlink(); // Turns off the blinking LCD cursor
 
-27. lcd.noBlink(); // Turns off the blinking LCD cursor
+lcd.cursor(); // Displays an underscore (line) at the position to which the next character will be written
 
-28. lcd.cursor(); // Displays an underscore (line) at the position to
-    > which the next character will be written
+delay(4000);
 
-29. delay(4000);
+lcd.noCursor(); // Hides the LCD cursor
 
-30. lcd.noCursor(); // Hides the LCD cursor
-
-31. lcd.clear(); // Clears the LCD screen
-
-32. }
+lcd.clear(); // Clears the LCD screen
+}
 
 
