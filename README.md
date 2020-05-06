@@ -84,8 +84,7 @@ Using an Ultrasonic Sensor-
 
 **Instructions-**
 
-1.  Connect your VCC (Power) and GND pins on the sensor to their
-    > respective pins
+1.  Connect your VCC (Power) and GND pins on the sensor to their respective pins
 
 2.  Connect Trig to pin 3
 
@@ -203,20 +202,13 @@ height="4.620325896762905in"}
 -   V0- Used to control the contrast between the images on the screen
     > based upon the voltage input
 
--   RS- Used to determine whether we send commands or data to the LCD.
-    > If the input into RS is LOW, then we are sending commands into the
-    > LCD (eg. Set cursor to specific location). If the input into RS is
-    > HIGH, then we are sending data or characters into the LCD
+-   RS- Used to determine whether we send commands or data to the LCD. If the input into RS is LOW, then we are sending commands into the LCD (eg. Set cursor to specific location). If the input into RS is HIGH, then we are sending data or characters into the LCD
 
--   R/W- Selects whether we are reading or writing to the LCD. Writing
-    > to the LCD means we are providing data into the display (commands
-    > or characters). Reading refers to extracting information from the
-    > LCD itself, and is done by the LCD as we execute the program.
+-   R/W- Selects whether we are reading or writing to the LCD. Writing to the LCD means we are providing data into the display (commands or characters). Reading refers to extracting information from the LCD itself, and is done by the LCD as we execute the program.
 
 -   E- Enables writing to the registers, or the next 8 data pins
 
--   D0-D7- Data pins for the LCD. These pins can take up to 8 bits of
-    > data in order to display a character based on the ASCII table
+-   D0-D7- Data pins for the LCD. These pins can take up to 8 bits of data in order to display a character based on the ASCII table
 
 -   A and K- Anode and Cathode for the LED back light
 
@@ -235,8 +227,7 @@ Using an LCD-
 
 1.  Connect VCC and GND of the LCD to their respective pins
 
-2.  Connect the V0 pin of the LCD to the output pin of a pontetiometer.
-    > This will be used to control the contrast of the screen display
+2.  Connect the V0 pin of the LCD to the output pin of a pontetiometer. This will be used to control the contrast of the screen display
 
 3.  Connect RS pin to pin 1
 
@@ -244,8 +235,7 @@ Using an LCD-
 
 5.  Connect Enable pin to pin 2
 
-6.  Connect digital pins D7, D6, D5 and D4 on the LCD to pins 7,6,5 and
-    > 4 respectively on the Arduino
+6.  Connect digital pins D7, D6, D5 and D4 on the LCD to pins 7,6,5 and 4 respectively on the Arduino
 
 7.  Connect the anode pin to Power and the cathode to GND
 
