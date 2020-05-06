@@ -28,8 +28,8 @@ Using Servos-
 
 **Schematic-**
 
-![](media/image2.png){width="6.494792213473316in"
-height="3.7066240157480315in"}
+![Schematic](https://github.com/usydroboticsclub/tinkercad2/blob/master/tink_1.png "Schematic")
+
 
 **Code:**
 
@@ -92,7 +92,7 @@ Using an Ultrasonic Sensor-
 
 **Schematic-**
 
-![](media/image6.png){width="6.5in" height="5.125in"}
+![Schematic](https://github.com/usydroboticsclub/tinkercad2/blob/master/tink_2.png "Schematic")
 
 **Code:**
 
@@ -191,7 +191,7 @@ Bonus Meme(Content)-
 
 Diagram of LCD-
 
-![TDiagram of LCD](https://github.com/usydroboticsclub/tinkercad2/blob/master/tink_1.png "Diagram of LCD")
+![TDiagram of LCD](https://github.com/usydroboticsclub/tinkercad2/blob/master/tink_4.png "Diagram of LCD")
 
 **Explanation of each pin-**
 
@@ -236,7 +236,7 @@ Using an LCD-
 
 7.  Connect the anode pin to Power and the cathode to GND
 
-![](media/image3.png){width="6.5in" height="4.222222222222222in"}
+![TDiagram of LCD](https://github.com/usydroboticsclub/tinkercad2/blob/master/tink_5.png "Diagram of LCD")
 
 Code:
 
