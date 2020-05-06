@@ -1,4 +1,3 @@
-![horizontal line](media/image1.png){width="6.5in"
 height="5.555555555555555e-2in"}
 
 Plan
@@ -23,8 +22,7 @@ Using Servos-
 
 **Instructions-**
 
-1.  Connect the ground and power pins to their respective branches on
-    > the breadboard to power the servo
+1.  Connect the ground and power pins to their respective branches on the breadboard to power the servo
 
 2.  Connect the signal pin (orange wire) to pin 9 on the Arduino
 
