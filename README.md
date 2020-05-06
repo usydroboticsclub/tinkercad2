@@ -1,2 +1,2 @@
-# SelFlow_1
-modifications of SelFlow to train on the Usyd datas
+# USCR-TINKERCAD2
+This is the gitHub repo TinkerCAD Workshop - 2
