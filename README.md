@@ -7,6 +7,17 @@ Plan
 
 -   Your Turn: Make a Touchless Covid Timer
 
+# Recordings now available!
+The password for these recordings is Kp94+cEGZyNe
+The below links will expire on 06-11-2020 and will become unavailable for download after this date.
+Audio Only (23.04 MB)
+https://cloudstor.aarnet.edu.au/plus/s/JbtNJVqPkleFXeY
+Video (233.18 MB)
+https://cloudstor.aarnet.edu.au/plus/s/ci9qNQVp4BnEcIk
+Other (1012.00 B)
+https://cloudstor.aarnet.edu.au/plus/s/SQ8a8DUFlXCxbrd
+
+
 Using Servos-
 =============
 
